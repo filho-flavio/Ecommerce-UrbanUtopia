@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.line {
+    outline: 1px solid #000;
+}
+
+.card-product:hover .card-img {
+    scale: 1.1;
+    transition: .3s ease-out;
+}
+
+tbody::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 1620px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    html {
+        font-size: 40%;
+    }
+}
